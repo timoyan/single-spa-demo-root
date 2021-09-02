@@ -1,0 +1,9 @@
+{
+    "extends": "ts-config-single-spa/tsconfig.json",
+    "include": [
+        "packages/**/*"
+    ],
+    "exclude": [
+        "src/**/*.test*"
+    ]
+}
